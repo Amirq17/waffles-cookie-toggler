@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      text-align: center;
+    }
+    h2 {
+      margin: 0 0 20px 0;
+      color: #333;
+    }
+    button {
+      width: 100%;
+      padding: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button.on {
+      background-color: #4CAF50;
+      color: white;
+    }
+    button.off {
+      background-color: #f44336;
+      color: white;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+    .status {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .status.on {
+      background-color: #e8f5e9;
+      color: #2e7d32;
+    }
+    .status.off {
+      background-color: #ffebee;
+      color: #c62828;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Waffles Cookie</h2>
+    <button id="toggleBtn">Loading...</button>
+    <div id="status" class="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

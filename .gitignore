@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+*.pem
+*.crx
+
+# Development
+README.md.backup
+PACK_INSTRUCTIONS.md
+
+# Old icons
+icon.png
+icon.svg
